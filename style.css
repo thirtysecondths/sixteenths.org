@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Rubik;
+}
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #000000, #00000000);
+  backdrop-filter: brightness(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  width: 75%;
+  padding: 0 15px;
+  font-size: 72px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.subtitle {
+  width: 75%;
+  padding: 0 15px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-style: italic;
+}
+.links {
+  font-size: 46px;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+a:hover {
+  color: #cacaca;
+}
+.images {
+  width: 75%;
+  padding: 0 10px;
+}
+.images img {
+  height: 256px;
+}
